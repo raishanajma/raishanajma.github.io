@@ -1,16 +1,18 @@
 import React from 'react';
 
-class App extends React.Component{
- render() {
-    const hello = 'Hello World';
-    const study = 'Let`s study together!';
-     return (
-         <div>
-            <h1> {hello} </h1>
-            <p> {study} </p>
-         </div>
-     );
- }
+class App extends React.Component {
+  render() {
+    return (
+    	<div>
+    	  <h1>Hello, Ken the Ninja!</h1>
+    	  {/* Add a <button> tag with the text "Master Wooly" */}
+    	  <button> Master Wooly </button>
+    	  {/* Add a <button> tag with the text "Ken the Ninja" */}
+    	  <button> Ken the Ninja </button>
+    	  
+    	</div>
+    );
+  }
 }
 
 export default App;
