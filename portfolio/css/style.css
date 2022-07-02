@@ -3,10 +3,8 @@
 
 :root {
     --header-height: 3rem;
-
-    --hue-color: 250;
     
-    --first-color: hsl(250, 69%, 61%);
+    --first-color: hsl(334, 50%, 79%);
     --first-color-second: hsl(250, 69%, 61%);
     --first-color-alt: hsl(250, 57%, 53%);
     --first-color-lighter: hsl(250, 92%, 85%);
