@@ -10,9 +10,9 @@
     --first-color-second: hsl(334, 50%, 79%);
     --first-color-alt: hsl(250, 57%, 53%);
     --first-color-lighter: hsl(336, 77%, 92%);
-    --title-color: hsl(250, 8%, 15%);
-    --text-color:  hsl(250, 8%, 45%);
-    --text-color-light: hsl(250, 8%, 65%);
+    --title-color: hsl(122, 26%, 19%);
+    --text-color:  hsl(122, 8%, 45%);
+    --text-color-light: hsl(122, 8%, 65%);
     --input-color: hsl(250, 70%, 96%);
     --body-color:  hsl(250, 60%, 99%);
     --container-color: #FFF ;
