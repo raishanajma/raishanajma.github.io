@@ -201,7 +201,7 @@ img {
     bottom: 0.5rem;
     font-size: 1.5rem;
     cursor: pointer;
-    color: #E4AEC5;
+    color: var(--first-color);
 }
 
 .nav__close:hover {
@@ -234,7 +234,7 @@ img {
 
 .home__social-icon {
     font-size: 1.25rem;
-    color: #5F7464;
+    color: var(--first-color);
 }
 
 .home__social-icon:hover {
@@ -243,7 +243,7 @@ img {
 
 .home__blob {
     width: 200px;
-    fill: #E4AEC5;
+    fill: var(--first-color);
 }
 
 .home__blob-img {
