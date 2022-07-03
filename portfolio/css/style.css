@@ -14,7 +14,7 @@
     --text-color:  hsl(122, 8%, 45%);
     --text-color-light: hsl(122, 8%, 65%);
     --input-color: hsl(250, 70%, 96%);
-    --body-color:  hsl(134, 10%, 41%);
+    --body-color:  hsl(250, 60%, 99%);
     --container-color: #FFF ;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
