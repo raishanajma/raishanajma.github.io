@@ -238,7 +238,7 @@ img {
 }
 
 .home__social-icon:hover {
-    color: hsl(134, 10%, 41%);
+    color: var(--first-color-alt);
 }
 
 .home__blob {
