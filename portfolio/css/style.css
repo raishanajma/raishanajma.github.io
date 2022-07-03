@@ -248,5 +248,8 @@ img {
 
 .home__blob-img {
     width: 170px;
+}
 
+.home__scroll-button button--flex {
+    color: var(--title-color);
 }
