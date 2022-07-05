@@ -8,7 +8,7 @@
     
     --first-color: hsl(345, 57%, 77%);
     --first-color-second: hsl(334, 50%, 79%);
-    --first-color-alt: hsl(250, 57%, 53%);
+    --first-color-alt: hsl(340, 57%, 65%);
     --first-color-lighter: hsl(336, 77%, 92%);
     --title-color: hsl(120, 10%, 16%);
     --text-color:  hsl(122, 8%, 45%);
@@ -179,7 +179,7 @@ img {
     gap: 2rem;
 }
 
-.nav__menu {
+.nav__link {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -188,7 +188,7 @@ img {
     font-weight: var(--font-medium);
 }
 
-.nav__menu:hover {
+.nav__link:hover {
     color: var(--first-color);
 }
 
@@ -218,7 +218,7 @@ img {
 }
 
 .home__content {
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 0.5fr 3fr;
     padding-top: 3.5rem;
     align-items: center;
 }
@@ -229,13 +229,9 @@ img {
     row-gap: 1rem;
 }
 
-.contacttext {
-    align-items: center;
-}
-
 .home__social-icon {
     font-size: 1.25rem;
-    color: hsl(134, 10%, 41%);
+    color: var(--first-color);
 }
 
 .home__social-icon:hover {
@@ -289,7 +285,6 @@ img {
 
  .home__scroll-mouse {
     font-size: 2rem;
-    color: var(--title-color);
  }
 
  .home__scroll-name {
@@ -302,6 +297,25 @@ img {
  .home__scroll-arrow {
     font-size: 1.25rem;
  }
+
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #FFF;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-weight: var(--font-medium);
+}
+
+.button:hover {
+    background-color: var(--first-color-alt);
+}
+
+.button__icon {
+    font-size: 1.25rem;
+    margin-left: var(--mb-0-5);
+    transition: 0.3s;
+}
 
  .button--flex {
     display: inline-flex;
