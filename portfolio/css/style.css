@@ -10,7 +10,7 @@
     --first-color-second: hsl(334, 50%, 79%);
     --first-color-alt: hsl(250, 57%, 53%);
     --first-color-lighter: hsl(336, 77%, 92%);
-    --title-color: hsl(122, 26%, 19%);
+    --title-color: hsl(120, 10%, 16%);
     --text-color:  hsl(122, 8%, 45%);
     --text-color-light: hsl(122, 8%, 65%);
     --input-color: hsl(250, 70%, 96%);
@@ -70,7 +70,7 @@ html {
 }
 
 body {
-    margin: 0 0 var(--header-height);
+    margin: 0 0 var(--header-height) 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
@@ -109,7 +109,8 @@ img {
     margin-bottom: var(--mb-3);
 }
 
-.section__title, .section__subtitle {
+.section__title,
+.section__subtitle {
     text-align: center;
 }
 
@@ -133,7 +134,7 @@ img {
     background-color: var(--body-color);
 }
 
-.navcontainer {
+.nav {
     max-width: 968px;
     height: var(--header-height);
     display: flex;
