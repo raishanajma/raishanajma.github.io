@@ -247,10 +247,6 @@ img {
     width: 170px;
 }
 
-.home__scroll-button button--flex {
-     color: var(--title-color);
- }
-
  .home__data {
     grid-column: 1/3;
  }
