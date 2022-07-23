@@ -15,6 +15,10 @@
     --inner-shadow: inset 3px 3px 3px #D0D0D0, -3px -3px 3px #f8f8f8;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 16px;
     line-height: 1.5;
